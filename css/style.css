@@ -265,3 +265,30 @@ body{
 .help .card:hover h3,.help .card:hover p {
   color: white;
 }
+
+footer{
+  padding: 50px;
+}
+footer p {
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+  margin-bottom: 30px;
+}
+footer ul, li {
+  padding: 0;
+  margin: 0;
+}footer li {
+  margin-bottom: 13px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* footer .foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
