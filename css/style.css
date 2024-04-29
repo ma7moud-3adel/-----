@@ -1,0 +1,267 @@
+:root{
+  --txt-dark : #173147;
+  --txt-blue : #006bff;
+  --txt-gray : #6c757d;
+  --bg-secondary : #ececec;
+
+}
+body{
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  direction: rtl;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #f8f9fa;
+}
+.navbar-brand {
+  font-size: 50px;
+  font-weight: bold;
+  color: #173147;
+}
+.navbar-brand span{
+  color: #006bff;
+}
+.navbar-toggler{
+  color: var(--txt-dark);
+}
+.navbar li a {
+  border-radius: 5px;
+}
+.landing{
+  padding: 100px 0;
+  max-height: calc(100vh-100px);
+}
+.landing .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.landing .text h2 {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 25px;
+  color: #173147;
+}
+.landing .text p {
+  font-weight: bold;
+  font-size: 16px;
+  color: #777;
+}
+.landing .text form i {
+  font-size: 12px;
+  color: #777;
+}
+.landing .text form label {
+  font-weight: bold;
+  color: #777;
+}
+.needs{
+  padding: 100px 0 ;
+  background-color: #ececec;
+}
+.needs h2 {
+  color: var(--txt-dark);
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.needs h2 span {
+  color: var(--txt-blue);
+}
+.needs p {
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--txt-gray);
+  margin-bottom: 50px;
+}
+.needs h3 {
+  color: var(--txt-dark);
+  font-weight: bold;
+}
+.needs h3:hover {
+  text-decoration: underline;
+}
+.needs .container .col img {
+  width: 25px;
+  position: relative;
+  top: -40%;
+  right: -10px;
+}
+.banner {
+  padding: 50px 25px;
+  border-radius: 10px;
+}
+.banner h2 {
+  color: white;
+  line-height: 1.6;
+}
+.banner p {
+  color: white;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+.banner .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner .col-md-3 {
+  display: flex;
+  justify-content: flex-end;
+}
+.banner .btn {
+  width: 250px;
+  height: 75px;
+  font-size: larger;
+}
+
+.details{
+  padding: 100px 0;
+}
+.details h2 {
+  color: var(--txt-dark);
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.6;
+  margin-bottom: 35px;
+}
+.details h2 span{
+  color: var(--txt-blue);
+}
+.details p {
+  color: var(--txt-gray);
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.details h3 {
+  color: var(--txt-dark);
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.details h3::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f05a';
+  margin-left: 10px;
+}
+.details img {
+  width: 550px;
+}
+.display {
+  padding-top: 50px;
+  height: 500px;
+  overflow: hidden;
+}
+.display img {
+  display: block;
+  width: 990px;
+  position: relative;
+  bottom: -10px;
+  right: 15%;
+}
+.display h1 {
+  color: var(--txt-dark);
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.display h3 {
+  color: var(--txt-dark);
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.display h3 span {
+  color: var(--txt-blue);
+}
+.display p {
+  color: var(--txt-gray);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.display a {
+  display: inline-block;
+  color: var(--txt-blue);
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 60px;
+}
+.display a span {
+  font-size: 20px;
+}
+
+.big-banner {
+  padding: 100px 50px;
+}
+.big-banner h2{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.big-banner p{
+  color: white;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.big-banner .btn {
+  width: 300px;
+  height: 70px;
+  font-size: 22px;
+}
+
+.help {
+  padding: 100px 0;
+  background-color: var(--bg-secondary);
+}
+.help h1 {
+  color: var(--txt-dark);
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.help h1 span {
+  color: var(--txt-blue);
+}
+.help p {
+  color: var(--txt-dark);
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.help .row .col {
+  border-radius: 20px;
+  height: 250px;
+  overflow: hidden;
+}
+.help .card {
+  padding: 25px;
+  transition: .3s;
+  transform-origin: bottom;
+}
+.help .card img {
+  width: 50px;
+  margin-bottom: 25px;
+}
+.help .card h3 {
+  color: var(--txt-dark);
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.help .card p {
+  font-size: 12px;
+}
+.help .card:hover{
+  transform: translateY(-95px);
+  background-color: var(--txt-dark);
+}
+.help .card:hover h3,.help .card:hover p {
+  color: white;
+}
